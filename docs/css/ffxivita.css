@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap');
+
+/* Colori Primari*/
+:root > * {
+    --md-primary-fg-color:           #00e0fe;
+    --md-primary-fg-color--dark:     hsl(216,32%,17%);
+    --md-primary-fg-color--light:    #00E0FE;
+    --md-accent-fg-color:            #00E0FE;
+    --header-font:                   Manrope;
+}
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: rgb(23,30,44);
+}
+/* Search */
+.md-search-result .md-typeset {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+/* Headers */
+.md-typeset h1 {
+	color: #00e0fe;
+	font-family: var(--header-font), sans-serif;
+	font-weight: 550;
+	size: 2em;
+}
+.md-typeset h2, .md-typeset h3, .md-typeset h4 {
+	font-family: var(--header-font), sans-serif;
+	font-weight: 400;
+	size: 2em;
+}
+.md-typeset h2 {
+	color: #00e0fe;
+	text-transform: uppercase;
+	padding-bottom: 0.5em;
+}
+.md-typeset h3 {
+	color: #00CCFF;
+}
+.md-typeset h4 {
+	padding-top: 1em;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.md-typeset h5 {
+	text-transform: capitalize;
+	color: white;
+	font-weight: bold;
+}
+.md-typeset h6 {
+	text-transform: capitalize;
+	color: white;
+}
+.md-ellipsis {
+	font-family: var(--header-font), sans-serif;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/* Bottoni */
+.md-typeset .md-button:is(:focus,:hover) {
+    background-color: var(--md-accent-fg-color);
+    border-color: var(--md-accent-fg-color);
+    color: black;
+}
+/* Highlight */
+.md-typeset mark { /* ==text== */
+    background-color: #244559;
+    color: white;
+    text-decoration: none;
+}
+.md-typeset del {  /* ~~text~~ */
+    background-color: #47324d;
+    color: white;
+    text-decoration: none;
+}
+.md-typeset code {
+    background-color: hsl(232,7%,28%);
+    border-radius: .1rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-size: .95em;
+    padding: 0 .2941176471em;
+    word-break: break-word;
+}
+/* Font Awesome */
+.discord {
+  font-size: 20px;
+}
+.github {
+  font-size: 20px;
+}
+/* Tabelle */
+.md-typeset table:not([class]) th {
+  font-weight: bold;
+  background-color: #00E0FE;
+  color: var(--md-default-bg-color);
+}
+/* Row height ridotto */
+.md-typeset table:not([class]) td {
+  border-top: .05rem solid var(--md-default-fg-color--lightest);
+  padding: .2375em 1.25em;
+  vertical-align: top;
+}
+/* Tasklist */
+ .md-typeset [type=checkbox]:checked+.task-list-indicator:before {
+    background-color: #00E0FE;
+}
