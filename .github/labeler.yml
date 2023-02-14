@@ -1,0 +1,14 @@
+xivita sanctuary:
+ - docs/plugins/xivita/xivita-sanctuary/**/*
+
+xivita guide:
+ - docs/plugins/xivita/xivita-guide/**/*
+
+xivita siren:
+ - docs/plugins/xivita/siren/**/*
+
+develop:
+ - docs/plugins/develop/**/*
+
+repo:
+ - '*'
