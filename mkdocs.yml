@@ -43,7 +43,7 @@ plugins:
   mkdocs-video:
     mark: "video-embed"
 
- glightbox:
+  glightbox:
     touchNavigation: true
     loop: false
     effect: zoom
