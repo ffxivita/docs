@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "main.html" %}
 {% block tabs %}
 {{ super() }}
 <link rel="stylesheet" href="assets/css/home.css">
@@ -9,8 +9,7 @@
             <div class="hero-content">
                 <h1>Documentazione di FFXIVITA</h1>
                 <p>Ti diamo il benvenuto in questa sezione di FFXIVITA dedicata alla documentazione dei nostri plugin e per chi volesse cimentarsi nella creazione di essi, una guida passo passo sul come fare</p>
-                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">Comincia da Qui</a>
-                <a href="https://ffxivita.it" target="_blank" class="md-button" title="FFXIVITA">Vai al sito principale</a>
+               <a href="https://ffxivita.it" target="_blank" class="md-button" title="FFXIVITA">Vai al sito principale</a>
             </div>
         </div>
     </div>
