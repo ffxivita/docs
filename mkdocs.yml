@@ -1,11 +1,11 @@
 # Project Information
-site_name: FFXIVITA Plugins  Documentation
+site_name: FFXIVITA Docs
 site_url: https://plugins.ffxivita.it/
-site_description: Comprehensive documentation for FFXIVITA Plugins and Development
+site_description: Comprehensive documentation for FFXIVITA
 # repo allows for linking main repo to docs
 # Uncomment to use
-repo_url: https://github.com/ffxivita/DalamudPlugins/
-repo_name: ffxivita/DalamudPlugins
+repo_url: https://github.com/ffxivita/Siren/
+repo_name: ffxivita/Siren
 edit_uri: "" #removes edit button and icon
 copyright: Powered by <a href="https://vercel.com/?utm_source=ffxivita&utm_campaign=oss" target="_blank">
   <img src="/assets/images/vercel-logotype-light.svg" alt="Vercel Logo"></a>
