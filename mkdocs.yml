@@ -27,11 +27,10 @@ theme:
     # - navigation.instant
     - navigation.top
     - navigation.tracking
-    - navigation.sections
     - search.suggest
     - search.highlight
     - search.share
-  # favicon: assets/images/FBW-Tail.png
+  favicon: assets/images/ffxivita.svg
 # Plugins
 plugins:
   search:
@@ -44,7 +43,6 @@ plugins:
     type: date
   mkdocs-video:
     mark: "video-embed"
-
   glightbox:
     touchNavigation: true
     loop: false
@@ -57,7 +55,6 @@ plugins:
       - skip-lightbox
     auto_caption: false
     caption_position: bottom
-
 extra_css:
   - stylesheets/extra.css
   - stylesheets/admonitions.css
@@ -83,7 +80,6 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@FFXIVITA
       name: FFXIVITA on Youtube
-
 markdown_extensions:
   meta: {} # Add front matter to a document
   admonition: {} # Makes things pretty
@@ -102,3 +98,12 @@ markdown_extensions:
   pymdownx.emoji: # Allows emoji style inline embeds for icons
     emoji_index: !!python/name:materialx.emoji.twemoji
     emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Siren:
+      - About: xivita-plugins/devel/siren/index.md
+      - Installazione: xivita-plugins/devel/siren/install.md
+      - Aggiornamento: xivita-plugins/devel/siren/update.md
+  - XIVITAGuide:
+      - About: xivita-plugins/xivita-guide/index.md
