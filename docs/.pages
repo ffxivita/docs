@@ -1,3 +1,4 @@
 nav:
  - Home: index.md
  - XIVITAGuide: plugins/xivita-guide
+ - Siren: plugins/devel/siren
