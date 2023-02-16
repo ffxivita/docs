@@ -7,7 +7,7 @@ site_description: Comprehensive documentation for FFXIVITA
 repo_url: https://github.com/ffxivita/Siren/
 repo_name: ffxivita/Siren
 edit_uri: "" #removes edit button and icon
-copyright: Powered by <a href="https://vercel.com/?utm_source=flybywiresim&utm_campaign=oss" target="_blank">
+copyright: Powered by <a href="https://vercel.com/?utm_source=ffxivita&utm_campaign=oss" target="_blank">
   <img src="/assets/images/vercel-logotype-light.svg" alt="Vercel Logo"></a>
 
 # Configuration
