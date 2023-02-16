@@ -39,7 +39,7 @@ Per partecipare al progetto docs, devi avere i seguenti tool installati:
     ```
 !!! info "Pillow + Cairo"
     Come parte di un nuovo metodo di condivisione social rilasciato con `mkdocs-material 8.5.0` [Pillow](https://pillow.readthedocs.io/) e [Cairo Graphics](https://www.cairographics.org/) 
-    sono stati aggiunti come dipendenze. Noi le mettiamo assieme come bundle dentro al nostro `requirements.txt` per assicurarsi di avere le dipendenze installate mentre si vuole provare localmente le [social cards](#social-cards-feature).
+    sono stati aggiunti come dipendenze. Noi le mettiamo assieme come bundle dentro al nostro `requirements.txt` per assicurarsi di avere le dipendenze installate mentre si vuole provare localmente le [social cards](#social-cards).
 
 - Editor / IDE:
     - Raccomandato: [Microsoft Visual Studio Code](https://code.visualstudio.com/docs#vscode){target=new}
