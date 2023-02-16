@@ -68,23 +68,23 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/flybywiresim
-      name: FlyByWire Simulations on Github
+      link: https://github.com/ffxivita
+      name: FFXIVITA on Github
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/FlyByWireSim
-      name: FlyByWire Simulations on Twitter
+      link: https://twitter.com/ffxiv_it
+      name: FFXIVITA on Twitter
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/FlyByWireSimulations
-      name: FlyByWire Simulations on Facebook
+      link: https://www.facebook.com/FFXIVITA
+      name: FFXIVITA on Facebook
     - icon: fontawesome/brands/discord
-      link: https://discord.com/invite/flybywire
-      name: FlyByWire Simulations on Discord
+      link: https://discord.com/invite/ffxvita
+      name: FFXIVITA on Discord
     - icon: fontawesome/brands/twitch
-      link: https://www.twitch.tv/flybywiresimulations
-      name: FlyByWire Simulations on Twitch
+      link: https://www.twitch.tv/FFXIVITA
+      name: FFXIVITA on Twitch
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@FlyByWireSim
-      name: FlyByWire Simulations on Youtube
+      link: https://www.youtube.com/@FFXIVITA
+      name: FFXIVITA on Youtube
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
