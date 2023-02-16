@@ -33,28 +33,28 @@ theme:
   favicon: assets/images/ffxivita.svg
 # Plugins
 plugins:
-  search:
-    lang: en
-  # Comment out the plugin below if building docs without an internet connection.
-  external-markdown: {}
-  awesome-pages: {}
-  tags: {}
-  git-revision-date-localized:
-    type: date
-  mkdocs-video:
-    mark: "video-embed"
-  glightbox:
-    touchNavigation: true
-    loop: false
-    effect: zoom
-    width: 100%
-    height: auto
-    zoomable: true
-    draggable: true
-    skip_classes:
-      - skip-lightbox
-    auto_caption: false
-    caption_position: bottom
+  - search:
+     lang: en
+  - external-markdown
+  - awesome-pages:
+      filename: .pages
+  - tags
+  - git-revision-date-localized:
+      type: date
+  - mkdocs-video:
+      mark: "video-embed"
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      width: 100%
+      zoomable: false
+      height: auto
+      draggable: true
+      skip_classes:
+        - skip-lightbox
+      auto_caption: false
+      caption_position: bottom
 extra_css:
   - stylesheets/extra.css
   - stylesheets/admonitions.css
@@ -99,11 +99,3 @@ markdown_extensions:
     emoji_index: !!python/name:materialx.emoji.twemoji
     emoji_generator: !!python/name:materialx.emoji.to_svg
 
-nav:
-  - Home: index.md
-  - Siren:
-      - About: xivita-plugins/devel/siren/index.md
-      - Installazione: xivita-plugins/devel/siren/install.md
-      - Aggiornamento: xivita-plugins/devel/siren/update.md
-  - XIVITAGuide:
-      - About: xivita-plugins/xivita-guide/index.md

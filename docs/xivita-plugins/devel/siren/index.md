@@ -18,5 +18,5 @@ Non posso garantire stabilità al momento.
 Siren è una collezione di utility (una "common library") che è pensata per essere usata con i plugin Dalamud. Contiene metodi di estensioni, componenti ed elementi di `ImGui`, e altre utilità che potrebbero mancare da `Dalamud/FFXIVClientStructs`.
 
 ## Link veloci
-[Installazione](install.md){ .md-button }
-[Aggiornamento](update.md){ .md-button }
+[Installazione](start/install-siren.md){ .md-button }
+[Aggiornamento](start/update-siren.md){ .md-button }
