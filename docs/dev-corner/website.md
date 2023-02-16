@@ -18,7 +18,7 @@ Una guida che ti aiuterà a capire le basi su come muovere i primi passi per lo 
 Una piccola lista di varie documentazioni (in lingua inglese) che vengono usate per aiutare nello sviluppo del sito web.
 
 - [Next.js](https://nextjs.org){target=new} il motore del nostro sito.
--  [React](https://reactjs.org/){target=new} libreria javascript concepita per la creazione di UI.
+- [React](https://reactjs.org/){target=new} libreria javascript concepita per la creazione di UI.
 - [tailwindcss](https://tailwindcss.com/){target=new} classi CSS.
 
 ## Cominciare
