@@ -2,10 +2,7 @@
 # - Title for the whole directory
 # - Titles for specific pages or subdirectories
 # - Order of pages (otherwise alphabetical order)
-order: desc
-title: Siren
+
+title: Dev Corner
 nav:
     - Overview: index.md
-    - Installazione: start/install-siren.md
-    - Aggiornamento: start/update-siren.md
-    - ...

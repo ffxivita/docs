@@ -1,4 +1,3 @@
 nav:
  - Home: index.md
- - XIVITAGuide: xivita-plugins/xivita-guide/
- - Siren: xivita-plugins/devel/siren/
+ - Dev Corner: dev-corner

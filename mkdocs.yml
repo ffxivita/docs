@@ -1,14 +1,15 @@
 # Project Information
 site_name: FFXIVITA Docs
-site_url: https://docs.ffxivita.it/
+site_url: https://docs.ffxivita/
 site_description: Comprehensive documentation for FFXIVITA
 # repo allows for linking main repo to docs
 # Uncomment to use
 repo_url: https://github.com/ffxivita/Siren/
 repo_name: ffxivita/Siren
 edit_uri: "" #removes edit button and icon
-copyright: Powered by <a href="https://vercel.com/?utm_source=ffxivita&utm_campaign=oss" target="_blank">
+copyright: Powered by <a href="https://vercel.com/?utm_source=flybywiresim&utm_campaign=oss" target="_blank">
   <img src="/assets/images/vercel-logotype-light.svg" alt="Vercel Logo"></a>
+
 # Configuration
 theme:
   name: material
@@ -31,55 +32,61 @@ theme:
     - search.highlight
     - search.share
   favicon: assets/images/ffxivita.svg
+
 # Plugins
 plugins:
-  - search:
-     lang: en
-  - external-markdown
-  - awesome-pages:
-      filename: .pages
-  - tags
-  - git-revision-date-localized:
-      type: date
-  - mkdocs-video:
-      mark: "video-embed"
-  - glightbox:
-      touchNavigation: true
-      loop: false
-      effect: zoom
-      width: 100%
-      zoomable: false
-      height: auto
-      draggable: true
-      skip_classes:
-        - skip-lightbox
-      auto_caption: false
-      caption_position: bottom
+  search:
+    lang: en
+  # Comment out the plugin below if building docs without an internet connection.
+  external-markdown: {}
+  awesome-pages: {}
+  tags: {}
+  git-revision-date-localized:
+    type: date
+  mkdocs-video:
+    mark: "video-embed"
+  glightbox:
+    touchNavigation: true
+    loop: false
+    effect: zoom
+    width: 100%
+    height: auto
+    zoomable: true
+    draggable: true
+    skip_classes:
+      - skip-lightbox
+    auto_caption: false
+    caption_position: bottom
+
+# Styling Front-end
 extra_css:
   - stylesheets/extra.css
   - stylesheets/admonitions.css
   - stylesheets/navigation.css
 
+# Extra Functions / Customizations
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ffxivita
-      name: FFXIVITA on Github
+      link: https://github.com/flybywiresim
+      name: FlyByWire Simulations on Github
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/ffxiv_it
-      name: FFXIVITA on Twitter
+      link: https://twitter.com/FlyByWireSim
+      name: FlyByWire Simulations on Twitter
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/FFXIVITA
-      name: FFXIVITA on Facebook
+      link: https://www.facebook.com/FlyByWireSimulations
+      name: FlyByWire Simulations on Facebook
     - icon: fontawesome/brands/discord
-      link: https://discord.com/invite/ffxivita
-      name: FFXIVITA on Discord
+      link: https://discord.com/invite/flybywire
+      name: FlyByWire Simulations on Discord
     - icon: fontawesome/brands/twitch
-      link: https://www.twitch.tv/ffxivita
-      name: FFXIVITA on Twitch
+      link: https://www.twitch.tv/flybywiresimulations
+      name: FlyByWire Simulations on Twitch
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@FFXIVITA
-      name: FFXIVITA on Youtube
+      link: https://www.youtube.com/@FlyByWireSim
+      name: FlyByWire Simulations on Youtube
+
+# Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
   meta: {} # Add front matter to a document
   admonition: {} # Makes things pretty
@@ -98,4 +105,3 @@ markdown_extensions:
   pymdownx.emoji: # Allows emoji style inline embeds for icons
     emoji_index: !!python/name:materialx.emoji.twemoji
     emoji_generator: !!python/name:materialx.emoji.to_svg
-
