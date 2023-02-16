@@ -51,7 +51,7 @@ Per partecipare al progetto docs, devi avere i seguenti tool installati:
 #### Social Cards
 
 !!! danger "Informazioni Importanti"
-    Per l'uso generale, non c'è bisogno per te di utilizzare questa feature localmente almeno che non si voglia cambiare delle impostazioni relative a questa feature.
+    Per l'uso generale, non c'è bisogno per te di utilizzare questa feature localmente a meno che non si voglia cambiare delle impostazioni relative a questa feature.
 
 #### Fare cambiamenti o aggiunte alla Documentazione
 - Crea un nuovo branch basato sul branch "main" e dagli un nome corto e significativo.
