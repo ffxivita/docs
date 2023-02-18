@@ -54,6 +54,7 @@ Per partecipare al progetto docs, devi avere i seguenti tool installati:
     Per l'uso generale, non c'è bisogno per te di utilizzare questa feature localmente a meno che non si voglia cambiare delle impostazioni relative a questa feature.
 
 #### Fare cambiamenti o aggiunte alla Documentazione
+- Forca il repository
 - Crea un nuovo branch basato sul branch "main" e dagli un nome corto e significativo.
 - Fai le tue modifiche sul tuo branch
 - Apri una pull Request

@@ -7,3 +7,6 @@ title: Dev Corner
 nav:
     - Overview: index.md
     - Siren: siren
+    - Sito Web: website.md
+    - Bot Discord: discord-bot.md
+    - Sito Documentazione: docs.md
