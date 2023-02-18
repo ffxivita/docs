@@ -5,5 +5,5 @@
 
 title: Dev Corner
 nav:
-    - index.md
+    - Overview: index.md
     - Siren: siren

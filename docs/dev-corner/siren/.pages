@@ -2,3 +2,9 @@
 # - Title for the whole directory
 # - Titles for specific pages or subdirectories
 # - Order of pages (otherwise alphabetical order)
+
+nav:
+    - Informazioni: index.md
+    - Installazione: install-siren.md
+    - Aggiornamento: update-siren.md
+    - Uso di Siren: siren-usage.md
