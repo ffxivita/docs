@@ -15,6 +15,7 @@ Ricordati inoltre di usare il dispose di Siren quando il tuo plugin non viene ca
 
  Puoi farlo richiamando il metodo `Dispose`. Raccomandiamo l'uso dentro al metodo dispose del tuo plugin.
  
+### Esempio d'uso
 
 ```csharp
 using Siren;

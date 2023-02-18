@@ -8,7 +8,7 @@ description: Siren è una collezione di utility (una "common library") che è pe
 <img src="https://github.com/ffxivita/Siren/raw/main/.assets/icons/Siren.png" alt="Siren" width="40%" class="skip-lightbox" loading="lazy" />
 </div>
 
-!!! danger "Informazioni Importanti"
+!!! danger "Leggere Attentamente"
 
 Siren è stata sviluppata per essere usata con i plugin di FFXIVITA e ovviamente contiene il nostro modo di scrivere e le nostre scelte di design (che ovviamente vengono tutte commentate accuratamente). 
 
