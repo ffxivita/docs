@@ -4,7 +4,7 @@ site_url: https://docs.ffxivita/
 site_description: Comprehensive documentation for FFXIVITA
 # repo allows for linking main repo to docs
 # Uncomment to use
-repo_url: https://github.com/ffxivita/Siren/
+repo_url: https://gitlab.com/ffxivita/Siren/
 repo_name: ffxivita/Siren
 edit_uri: "" #removes edit button and icon
 copyright: Powered by <a href="https://vercel.com/?utm_source=ffxivita&utm_campaign=oss" target="_blank">
@@ -67,9 +67,9 @@ extra_css:
 # Extra Functions / Customizations
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/ffxivita
-      name: FFXIVITA on Github
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/ffxivita
+      name: FFXIVITA on GitLab
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ffxiv_it
       name: FFXIVITA on Twitter
