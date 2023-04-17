@@ -5,7 +5,7 @@ description: Siren è una collezione di utility (una "common library") che è pe
 
 <div style="text-align: center;">
 
-<img src="https://github.com/ffxivita/Siren/raw/main/.assets/icons/Siren.png" alt="Siren" width="40%" class="skip-lightbox" loading="lazy" />
+<img src="https://gitlab.com/ffxivita/Siren/-/raw/main/.assets/icons/Siren.png" alt="Siren" width="40%" class="skip-lightbox" loading="lazy" />
 </div>
 
 !!! danger "Leggere Attentamente"
