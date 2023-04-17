@@ -9,5 +9,5 @@ Siren deve essere usata come submodule dentro al tuo repository.
 Per aggiungere Siren come submodule, esegui questo comando dentro il tuo repository git:
 
 ```bash
-git submodule add https://github.com/ffxivita/Siren.git
+git submodule add https://gitlab.com/ffxivita/Siren.git
 ```
