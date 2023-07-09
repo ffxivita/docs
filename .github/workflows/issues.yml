@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: add-new-issues-to-repository-based-project-column
-        uses: docker://takanabe/github-actions-automate-projects:v0.0.1
+        uses: docker://takanabe/github-actions-automate-projects:v0.0.1@sha256:16a589147dec088f73735a477f274135595ab90d414aba76b6c1e0d65df8f73c
         if: github.event_name == 'issues' && github.event.action == 'opened'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
