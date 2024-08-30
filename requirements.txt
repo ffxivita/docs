@@ -71,7 +71,7 @@ mergedeep==1.3.4
     # via mkdocs
 mike==1.1.2
     # via -r requirements.in
-mkdocs==1.4.2
+mkdocs==1.6.1
     # via
     #   mike
     #   mkdocs-awesome-pages-plugin
