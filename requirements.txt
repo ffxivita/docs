@@ -46,7 +46,7 @@ gitdb==4.0.10
     # via gitpython
 gitpython==3.1.31
     # via mkdocs-git-revision-date-localized-plugin
-identify==2.5.20
+identify==2.6.1
     # via pre-commit
 idna==3.4
     # via requests
